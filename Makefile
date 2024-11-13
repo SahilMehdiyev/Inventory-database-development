@@ -10,6 +10,9 @@ run_migrate:
 run_makemigrations:
 	poetry run python manage.py makemigrations
 
+pytest:
+	poetry run pytest
+
 pre_commit_run:
 	pre-commit run --files
 
